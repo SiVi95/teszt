@@ -1,0 +1,17 @@
+html[lang="hu"] .reservation-confirm__success-text,
+html[lang="hu"] .reservation-confirm__company-name {
+	font-size: 0px;
+}
+
+.reservation-confirm__success-text::before
+.reservation-confirm__company-name::before {
+	font-size: 15px;
+}
+
+html[lang="hu"] .reservation-confirm__success-text::before {
+	content: 'Várjuk Önt a lefoglalt időpontban!'
+}
+
+html[lang="hu"] .reservation-confirm__company-name::before {
+	content: 'Biggeorge Otthonok Értékesítés az Eladó megbízásából'
+}
